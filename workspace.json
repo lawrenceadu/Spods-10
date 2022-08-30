@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "spods-app": "apps/spods-app",
-    "spods-app-e2e": "apps/spods-app-e2e"
+    "spods-app-e2e": "apps/spods-app-e2e",
+    "ui": "libs/ui",
+    "ui-e2e": "apps/ui-e2e"
   }
 }

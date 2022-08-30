@@ -1,0 +1,24 @@
+button {
+  display: flex;
+  cursor: pointer;
+  padding: 0 1rem;
+  user-select: none;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700 !important;
+  border: solid 2px transparent;
+
+  & > svg {
+    transition: ease-in-out 0.15s transform;
+    transform: translateX(0);
+  }
+
+  &:focus {
+    outline: 1px solid transparent;
+  }
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+  }
+}

@@ -1,0 +1,8 @@
+.img-fluid {
+  @include img-fluid();
+}
+
+.img-fit {
+  object-fit: cover;
+  object-position: center;
+}

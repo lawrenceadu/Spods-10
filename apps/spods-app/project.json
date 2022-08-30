@@ -17,7 +17,12 @@
         "tsConfig": "apps/spods-app/tsconfig.app.json",
         "assets": [
           "apps/spods-app/src/favicon.ico",
-          "apps/spods-app/src/assets"
+          "apps/spods-app/src/assets",
+          {
+            "input": "libs/fonts",
+            "glob": "**/*",
+            "output": "assets/fonts"
+          }
         ],
         "styles": ["apps/spods-app/src/styles.scss"],
         "scripts": [],
